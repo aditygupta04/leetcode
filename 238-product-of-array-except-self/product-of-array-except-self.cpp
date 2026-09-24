@@ -10,6 +10,7 @@ public:
             pre[i] = p;
             p = p*nums[i];
         }
+        
         //suffix product array
         p = nums[n-1];
         suf[n-1] = 1;
